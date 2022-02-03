@@ -11,6 +11,7 @@ function App() {
         fetchUrl={requests.fetchNetflixOriginals}
       />
       <Row title="Trending now" fetchUrl={requests.fetchTopRated} />
+      <Row title="Top rated" fetchUrl={requests.fetchTopRated} />
     </div>
   );
 }
