@@ -15,8 +15,6 @@ function Row({ title, fetchUrl }) {
     }
     fetchData();
   }, [fetchUrl]);
-  console.table(movies);
-  // run once and never load it again, if there is a variable code runs again
 
   return (
     <div className="row">
@@ -24,13 +22,13 @@ function Row({ title, fetchUrl }) {
       <div className="row_posters">
         {movies.map((movie) => (
           <img
+            key={movie.id}
             src={`${base_url}${movie.poster_path}`}
             alt={movie.name}
             className="row__poster"
           />
         ))}
       </div>
-      {/* container - posters */}
     </div>
   );
 }

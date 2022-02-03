@@ -6,6 +6,9 @@
   margin-right: 10px;
 }
 
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
 .row_posters {
   display: flex;
   flex-direction: row;
