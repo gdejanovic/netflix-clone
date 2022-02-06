@@ -1,5 +1,5 @@
 #Netflix Clone
-Using React, Axios, eslint...
+Using React, Axios, eslint... with tmdb api.
 deployed version http://netflix-clone.legonato.hr/
 
 use npm install to install
