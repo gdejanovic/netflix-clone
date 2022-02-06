@@ -1,6 +1,6 @@
 #Netflix Clone
-Using React, Axios, eslint and firebase.
-deployed version https://netflix-clone-45154.web.app/
+Using React, Axios, eslint...
+deployed version http://netflix-clone.legonato.hr/
 
 use npm install to install
 use npm start to start developement build
